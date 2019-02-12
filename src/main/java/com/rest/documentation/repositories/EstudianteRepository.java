@@ -11,6 +11,6 @@ import java.util.Collection;
 @RepositoryRestResource
 public interface EstudianteRepository extends JpaRepository<Estudiante, Long> {
 
-    @RestResource(path = "byMatricula")
-    Collection<Estudiante> findByMatricula_estudiante(@Param("matricula") String mastricula);
+    //@RestResource(path = "by-matricula_estudiante")
+    //Collection<Estudiante> findByMatricula_estudiante(@Param("matricula_estudiante") String mastricula);
 }
