@@ -22,7 +22,7 @@ public class Estudiante {
     private int creditos_total;
     @Column(length = 3)
     private int creditos_cursados;
-
     @Temporal(TemporalType.TIMESTAMP)
     private Date fecha_envio;
+
 }
